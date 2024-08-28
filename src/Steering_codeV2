@@ -1,0 +1,36 @@
+#include <Servo.h>
+
+int servoPin = 10;
+int PWMPin = 9;
+int rightIR = A3;
+int leftIR = A2;
+
+Servo myServo;
+
+void setup() {
+  myServo.attach(servoPin);
+  myServo.write(90);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int leftValue = analogRead(leftIR);
+  int rightValue = analogRead(rightIR);
+  
+  int difference = leftValue - rightValue;
+  
+  int servoPos = map(difference, -1023, 1023, 0, 180);
+  
+  servoPos = constrain(servoPos, 0, 180);
+  
+  myServo.write(servoPos);
+  
+  Serial.print("Left IR: ");
+  Serial.print(leftValue);
+  Serial.print("  Right IR: ");
+  Serial.print(rightValue);
+  Serial.print("  Servo Position: ");
+  Serial.println(servoPos);
+  
+  delay(50);
+}
