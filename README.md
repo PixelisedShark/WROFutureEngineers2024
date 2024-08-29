@@ -15,7 +15,30 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+Group Members:
+Jing Wei (builder)
+Chandler (coder)
+Dhevash (coder)
+
+
+
+Hello, Viewer!
+
+We are a group of students from Yuan Ching Secondary School. This repository contains a collection of our work from the past year. All models and files here are open source, so you’re welcome to use them as inspiration, adapt them to your needs, or enhance them further.
+
+We hope that by sharing our work, we can contribute to the broader community and assist others in their projects.
+
+Happy exploring!
+
+
+
+Electronics used
+*husky lense
+*brushless DC motor
+*Sharp IR sensors
+*Colour Sensor 
+
+Documentation of building, prototyping and assembly is under other files. complied as a PDF
 
 ## How to prepare the repo based on the template
 
