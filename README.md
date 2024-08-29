@@ -1,7 +1,7 @@
 Engineering materials
 ====
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2024.
 
 ## Content
 
@@ -33,17 +33,11 @@ Happy exploring!
 
 
 Electronics used
-*husky lense
-*brushless DC motor
-*Sharp IR sensors
-*Colour Sensor 
+   *husky lense
+   *brushless DC motor
+   *Sharp IR sensors
+   *Colour Sensor 
+   *servo
 
 Documentation of building, prototyping and assembly is under other files. complied as a PDF
 
-## How to prepare the repo based on the template
-
-_Remove this section before the first commit to the repository_
-
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
